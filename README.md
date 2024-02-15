@@ -20,6 +20,8 @@ KNOW is a coaching management application designed to facilitate knowledge excha
 - Spring Security: Authentication and authorization.
 - Frontend: [Framework or Library Name Here]
 - Database: [Database Name Here]
+## ER Diagram
+![Screenshot 2024-02-15 201730](https://github.com/Guyvinay/KNOW/assets/119345842/5b41c5f5-0144-436a-8d15-1ae95a254fdc)
 
 ## Installation and Usage
 
