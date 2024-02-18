@@ -1,0 +1,237 @@
+Student Mock data
+[
+  {
+    "email": "john.doe.student@example.com",
+    "password": "student_password1",
+    "role": "STUDENT",
+    "name": "John Doe",
+    "additionalInfo": "Additional info for John Doe",
+    "contact": "123-456-7890",
+    "city": "New York",
+    "profilePicture":"https://avatars.githubusercontent.com/u/44674940?s=100&v=4",
+    "subjects": ["MATHS", "SCIENCE"]
+  },
+  {
+    "email": "jane.smith.student@example.com",
+    "password": "student_password2",
+    "role": "STUDENT",
+    "name": "Jane Smith",
+    "additionalInfo": "Additional info for Jane Smith",
+    "contact": "987-654-3210",
+    "city": "Los Angeles",
+    "profilePicture":"https://avatars.githubusercontent.com/u/111452090?s=100&v=4",
+    "subjects": ["HISTORY", "GEOGRAPHY"]
+  },
+  {
+    "email": "alice.johnson.student@example.com",
+    "password": "student_password3",
+    "role": "STUDENT",
+    "name": "Alice Johnson",
+    "additionalInfo": "Additional info for Alice Johnson",
+    "contact": "555-555-5555",
+    "city": "Chicago",
+    "profilePicture":"https://avatars.githubusercontent.com/u/114993700?s=100&v=4",
+    "subjects": ["ENGLISH", "COMPUTER_SCIENCE"]
+  },
+  {
+    "email": "bob.brown.student@example.com",
+    "password": "student_password4",
+    "role": "STUDENT",
+    "name": "Bob Brown",
+    "additionalInfo": "Additional info for Bob Brown",
+    "contact": "111-222-3333",
+    "city": "Houston",
+    "profilePicture":"https://avatars.githubusercontent.com/u/55854703?s=100&v=4",
+    "subjects": ["MATHS", "SCIENCE", "HISTORY"]
+  },
+  {
+    "email": "eva.wilson.student@example.com",
+    "password": "student_password5",
+    "role": "STUDENT",
+    "name": "Eva Wilson",
+    "additionalInfo": "Additional info for Eva Wilson",
+    "contact": "999-888-7777",
+    "city": "San Francisco",
+    "profilePicture":"https://avatars.githubusercontent.com/u/1151390?s=100&v=4",
+    "subjects": ["GEOGRAPHY", "ENGLISH"]
+  },
+  {
+    "email": "michael.lee.student@example.com",
+    "password": "student_password6",
+    "role": "STUDENT",
+    "name": "Michael Lee",
+    "additionalInfo": "Additional info for Michael Lee",
+    "contact": "444-444-4444",
+    "city": "Seattle",
+    "profilePicture":"https://avatars.githubusercontent.com/u/80959795?s=100&v=4",
+    "subjects": ["COMPUTER_SCIENCE"]
+  },
+  {
+    "email": "sarah.davis.student@example.com",
+    "password": "student_password7",
+    "role": "STUDENT",
+    "name": "Sarah Davis",
+    "additionalInfo": "Additional info for Sarah Davis",
+    "contact": "777-777-7777",
+    "city": "Miami",
+    "profilePicture":"https://avatars.githubusercontent.com/u/78740126?s=100&v=4",
+    "subjects": ["MATHS"]
+  },
+  {
+    "email": "david.martinez.student@example.com",
+    "password": "student_password8",
+    "role": "STUDENT",
+    "name": "David Martinez",
+    "additionalInfo": "Additional info for David Martinez",
+    "contact": "666-666-6666",
+    "city": "Boston",
+    "profilePicture":"https://avatars.githubusercontent.com/u/96374316?s=100&v=4",
+    "subjects": ["SCIENCE", "HISTORY"]
+  },
+  {
+    "email": "olivia.clark.student@example.com",
+    "password": "student_password9",
+    "role": "STUDENT",
+    "name": "Olivia Clark",
+    "additionalInfo": "Additional info for Olivia Clark",
+    "contact": "222-333-4444",
+    "city": "Philadelphia",
+    "profilePicture":"https://avatars.githubusercontent.com/u/87047109?s=100&v=4",
+    "subjects": ["MATHS", "SCIENCE", "ENGLISH"]
+  },
+  {
+    "email": "james.rodriguez.student@example.com",
+    "password": "student_password10",
+    "role": "STUDENT",
+    "name": "James Rodriguez",
+    "additionalInfo": "Additional info for James Rodriguez",
+    "contact": "888-999-0000",
+    "city": "Atlanta",
+    "profilePicture":"https://avatars.githubusercontent.com/u/72947719?s=100&v=4",
+    "subjects": ["HISTORY", "GEOGRAPHY", "COMPUTER_SCIENCE"]
+  }
+]
+
+Faculties Mock data
+
+[
+  {
+    "email": "prof.johnson@gmail.com",
+    "password": "faculty_password1",
+    "role": "FACULTY",
+    "name": "Professor Johnson",
+    "subject": "MATHS",
+    "additionalInfo": "Additional info for Professor Johnson",
+    "contact": "123-456-7890",
+    "profilePicture":"https://avatars.githubusercontent.com/u/72947719?s=100&v=4",
+    "city": "New York"
+  },
+  {
+    "email": "prof.smith@gmail.com",
+    "password": "faculty_password2",
+    "role": "FACULTY",
+    "name": "Professor Smith",
+    "subject": "SCIENCE",
+    "additionalInfo": "Additional info for Professor Smith",
+    "contact": "987-654-3210",
+    "profilePicture":"https://avatars.githubusercontent.com/u/87047109?s=100&v=4",
+    "city": "Los Angeles"
+  },
+  {
+    "email": "prof.doe@gmail.com",
+    "password": "faculty_password3",
+    "role": "FACULTY",
+    "name": "Professor Doe",
+    "subject": "HISTORY",
+    "additionalInfo": "Additional info for Professor Doe",
+    "profilePicture":"https://avatars.githubusercontent.com/u/96374316?s=100&v=4",
+    "contact": "555-555-5555",
+    "city": "Chicago"
+  },
+  {
+    "email": "prof.brown@gmail.com",
+    "password": "faculty_password4",
+    "role": "FACULTY",
+    "name": "Professor Brown",
+    "subject": "GEOGRAPHY",
+    "additionalInfo": "Additional info for Professor Brown",
+    "profilePicture":"https://avatars.githubusercontent.com/u/80959795?s=100&v=4",
+    "contact": "111-222-3333",
+    "city": "Houston"
+  },
+  {
+    "email": "prof.wilson@gmail.com",
+    "password": "faculty_password5",
+    "role": "FACULTY",
+    "name": "Professor Wilson",
+    "subject": "ENGLISH",
+    "additionalInfo": "Additional info for Professor Wilson",
+    "profilePicture":"https://avatars.githubusercontent.com/u/114993700?s=100&v=4",
+    "contact": "999-888-7777",
+    "city": "San Francisco"
+  },
+  {
+    "email": "prof.lee@gmail.com",
+    "password": "faculty_password6",
+    "role": "FACULTY",
+    "name": "Professor Lee",
+    "subject": "COMPUTER_SCIENCE",
+    "additionalInfo": "Additional info for Professor Lee",
+    "contact": "444-444-4444",
+     "profilePicture":"https://avatars.githubusercontent.com/u/44674940?s=100&v=4",
+    "city": "Seattle"
+  }
+]
+
+[  
+  {
+    "email": "prof.davis@gmail.com",
+    "password": "faculty_password7",
+    "role": "FACULTY",
+    "name": "Professor Davis",
+    "subject": "MATHS",
+    "additionalInfo": "Additional info for Professor Davis",
+    "contact": "777-777-7777",
+    "city": "Miami"
+  },
+  {
+    "email": "prof.martinez@gmail.com",
+    "password": "faculty_password8",
+    "role": "FACULTY",
+    "name": "Professor Martinez",
+    "subject": "SCIENCE",
+    "additionalInfo": "Additional info for Professor Martinez",
+    "contact": "666-666-6666",
+    "city": "Boston"
+  },
+  {
+    "email": "prof.clark@gmail.com",
+    "password": "faculty_password9",
+    "role": "FACULTY",
+    "name": "Professor Clark",
+    "subject": "MATHS",
+    "additionalInfo": "Additional info for Professor Clark",
+    "contact": "222-333-4444",
+    "city": "Philadelphia"
+  },
+  {
+    "email": "prof.rodriguez@gmail.com",
+    "password": "faculty_password10",
+    "role": "FACULTY",
+    "name": "Professor Rodriguez",
+    "subject": "SCIENCE",
+    "additionalInfo": "Additional info for Professor Rodriguez",
+    "contact": "888-999-0000",
+    "city": "Atlanta"
+  }
+]
+
+Coaching Mock Data
+[
+   {
+    "name": "Sherrif Academy",
+    "city": "PATNA",
+    "contactNumber": "888-999-0000",
+    "picture":"https://avatars.githubusercontent.com/u/148002608?s=100&v=4"
+  }
+]

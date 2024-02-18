@@ -44,8 +44,8 @@ public class GlobalExceptionHandler {
 				HttpStatus.NOT_FOUND);
 	}
 	
-	@ExceptionHandler(CoachingNotException.class)
-	public ResponseEntity<ErrorDetails> coachingExceptionHandler(CoachingNotException ex, WebRequest wb){
+	@ExceptionHandler(CoachingNotFoundException.class)
+	public ResponseEntity<ErrorDetails> coachingExceptionHandler(CoachingNotFoundException ex, WebRequest wb){
 		return new ResponseEntity<ErrorDetails>(
 				new ErrorDetails(
 						LocalDateTime.now(), 
