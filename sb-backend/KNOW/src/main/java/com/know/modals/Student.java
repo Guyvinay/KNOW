@@ -68,6 +68,17 @@ public class Student extends Profile {
 		this.profilePicture = profilePicture;
 		this.subjects = subjects;
 	}
+
+
+	public Student(String name, String additionalInfo,
+			 String contact,
+			String city, String profilePicture) {
+		this.name = name;
+		this.additionalInfo = additionalInfo;
+		this.contact = contact;
+		this.city = city;
+		this.profilePicture = profilePicture;
+	}
 	
 	
 	

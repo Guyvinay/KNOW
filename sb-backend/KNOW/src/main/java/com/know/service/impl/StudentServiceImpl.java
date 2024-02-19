@@ -38,12 +38,13 @@ public class StudentServiceImpl implements StudentService {
 	
 	@Override
 	public List<Student> saveAllStudent(List<Student> students) {
-		
-		return studentRepositiry.saveAll(students);
+				return studentRepositiry.saveAll(students);
 	}
 
 	@Override
 	public List<Student> getAllStudent() {
+		System.out.println("From student ser1");
+
 		List<Student> students = studentRepositiry.findAll();
 		if(students.isEmpty())
 			throw new StudentNotFoundException("No Students Found!!!");

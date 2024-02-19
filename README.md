@@ -2,7 +2,8 @@
 
 KNOW is a coaching management application designed to facilitate knowledge exchange and academic resource management. It aims to connect coaching institutes, faculties, and students in a collaborative learning environment.
 
-## Features
+## Backend Features
+## Backend Features
 
 - Registration and authentication for coaching institutes, faculties, and students.
 - Coaching management: Create and manage coaching institute profiles, courses, and faculty information.
@@ -12,16 +13,70 @@ KNOW is a coaching management application designed to facilitate knowledge excha
 - Search and filter functionality: Allows students to find coaching institutes based on various criteria.
 - Communication and notifications: Facilitate communication between coaching institutes, faculties, and students.
 - Reporting and analytics: Generate reports on student enrollment, course popularity, faculty performance, etc.
+- Web Socket Enabled Communication among faculties and students
+- Mock Data already present inside main/java/resources/mockData 
+
+## Controllers
+
+### Student Controller
+- Base URL: `http://localhost:8888//api/students`
+
+#### Endpoints
+- `POST /api/students`: Save a new student.
+- `POST /api/students/saveAll`: Save multiple students.
+- `GET /api/students`: Get all students.
+- `GET /api/students/pages`: Get paginated list of students.
+- `GET /api/students/{studentId}`: Get student by ID.
+- `GET /api/students/byName/{studentName}`: Get student by name.
+- `PUT /api/students/{studentId}`: Update student by ID.
+- `DELETE /api/students/{studentId}`: Delete student by ID.
+
+
+### Faculty Controller
+- Base URL: `http://localhost:8888/api/faculties`
+
+#### Endpoints
+- `POST /api/faculties`: Save a new faculty.
+- `POST /api/faculties/saveAll`: Save multiple faculties.
+- `GET /api/faculties`: Get all faculties.
+- `GET /api/faculties/pages`: Get paginated list of faculties.
+- `GET /api/faculties/{facultyId}`: Get faculty by ID.
+- `GET /api/faculties/byName/{facultyName}`: Get faculty by name.
+- `PUT /api/faculties/{facultyId}`: Update faculty by ID.
+- `DELETE /api/faculties/{facultyId}`: Delete faculty by ID.
+
+### Coaching Controller
+- Base URL: `http://localhost:8888/api/coachings`
+
+#### Endpoints
+- `POST /api/coachings`: Save a new coaching.
+- `POST /api/coachings/saveAll`: Save multiple coachings.
+- `GET /api/coachings`: Get all coachings.
+- `GET /api/coachings/pages`: Get paginated list of coachings.
+- `GET /api/coachings/{coachingId}`: Get coaching by ID.
+- `GET /api/coachings/byName/{coachingName}`: Get coaching by name.
+- `PUT /api/coachings/{coachingId}`: Update coaching by ID.
+- `DELETE /api/coachings/{coachingId}`: Delete coaching by ID.
+
+### Communication 
+- Base URL: `ws://localhost:8888/chat/coachingId/studentId`
+
+
+## Database Schema
+![Screenshot 2024-02-15 201730](https://github.com/SSBI-SSBDigital/Java_Candidate_Full-Stack-Developer/assets/119345842/2348bcc7-1c3a-467f-8769-82dfe3b78c34)
+
+## Sneak Peaks
+![Screenshot 2024-02-18 025649](https://github.com/SSBI-SSBDigital/Java_Candidate_Full-Stack-Developer/assets/119345842/771b60bd-178d-40b9-a421-d00ecc6f3f0e)
+
 
 ## Technologies Used
 
 - Java Spring Boot: Backend framework for rapid development.
 - Spring Data JPA: Data access and management.
-- Spring Security: Authentication and authorization.
-- Frontend: [Framework or Library Name Here]
-- Database: [Database Name Here]
-## ER Diagram
-![Screenshot 2024-02-15 201730](https://github.com/Guyvinay/KNOW/assets/119345842/5b41c5f5-0144-436a-8d15-1ae95a254fdc)
+- Web Socket: Real Time Communication
+- Frontend: Angular
+- Database: MySql
+- Frontend: Angular
 
 ## Installation and Usage
 

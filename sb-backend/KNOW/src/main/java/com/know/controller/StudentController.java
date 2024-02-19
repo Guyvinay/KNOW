@@ -35,7 +35,7 @@ public class StudentController {
 	private StudentService studentService;
 	
 	@PostMapping()
-	private ResponseEntity<?> saveStudent(@Valid @RequestBody Student student, BindingResult bindingResult){
+	private ResponseEntity<?> saveStudent( @RequestBody Student student, BindingResult bindingResult){
 		
 		if (bindingResult.hasErrors()) {
             // If validation errors exist, return bad request with error details
