@@ -33,7 +33,6 @@ public class StudentServiceImpl implements StudentService {
 	
 	@Override
 	public Student saveStudent(Student student) {
-		// TODO Auto-generated method stub
 		return studentRepositiry.save(student);
 	}
 	
@@ -84,21 +83,25 @@ public class StudentServiceImpl implements StudentService {
 		Student retrievedStudent = studentRepositiry.findById(studentId).orElseThrow(()->new StudentNotFoundException("Student with id: "+studentId+", not found!!!"));
 		
 		
-		
 		List<Coaching> city = coachingRepository.findByCity(retrievedStudent.getCity());
+		
 		if(city.isEmpty())
 			throw new CoachingNotFoundException("Coaching not found in your city: "+retrievedStudent.getCity());
 		
 		Coaching coaching = city.get(new Random().nextInt(city.size()));
-
-		List<Faculty> faculties = coaching.getFaculties();
-		
-		
 		
 		retrievedStudent.getCoachings().add(coaching);
-
 		
+		List<Faculty> faculties = coaching.getFaculties();
 		
+		for(Subject subject : retrievedStudent.getSubjects()) {
+			for(Faculty faculty: faculties) {
+				if(faculty.getSubject().equals(subject)) {
+					retrievedStudent.getFaculties().add(faculty);
+					faculty.getStudents().add(retrievedStudent);
+				}
+			}
+		}
 		return retrievedStudent;
 	}
 	
