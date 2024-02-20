@@ -2,7 +2,7 @@
 
 KNOW is a coaching management application designed to facilitate knowledge exchange and academic resource management. It aims to connect coaching institutes, faculties, and students in a collaborative learning environment.
 
-## Video Walkthrought
+## Walkthrough
 - https://drive.google.com/file/d/1RJqY-TfZBLkECljFPKOmSmaXRRFL_Ogs/view?usp=sharing
 
 ## Backend Features
