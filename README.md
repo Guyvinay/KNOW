@@ -2,7 +2,9 @@
 
 KNOW is a coaching management application designed to facilitate knowledge exchange and academic resource management. It aims to connect coaching institutes, faculties, and students in a collaborative learning environment.
 
-## Backend Features
+## Video Walkthrought
+- https://drive.google.com/file/d/1RJqY-TfZBLkECljFPKOmSmaXRRFL_Ogs/view?usp=sharing
+
 ## Backend Features
 
 - Registration and authentication for coaching institutes, faculties, and students.
@@ -76,7 +78,6 @@ KNOW is a coaching management application designed to facilitate knowledge excha
 - Web Socket: Real Time Communication
 - Frontend: Angular
 - Database: MySql
-- Frontend: Angular
 
 ## Installation and Usage
 
