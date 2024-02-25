@@ -68,18 +68,14 @@ public class Student extends Profile {
 		this.profilePicture = profilePicture;
 		this.subjects = subjects;
 	}
-
-
-	public Student(String name, String additionalInfo,
-			 String contact,
+	
+	public Student(String email, String password, Role role, String name, String additionalInfo, String contact,
 			String city, String profilePicture) {
+		super(email, password, role);
 		this.name = name;
 		this.additionalInfo = additionalInfo;
 		this.contact = contact;
 		this.city = city;
 		this.profilePicture = profilePicture;
 	}
-	
-	
-	
 }

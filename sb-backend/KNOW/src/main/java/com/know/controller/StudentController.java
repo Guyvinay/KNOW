@@ -35,12 +35,14 @@ public class StudentController {
 	private StudentService studentService;
 	
 	@PostMapping()
-	private ResponseEntity<?> saveStudent( @RequestBody Student student, BindingResult bindingResult){
-		
-		if (bindingResult.hasErrors()) {
-            // If validation errors exist, return bad request with error details
-            return ResponseEntity.badRequest().body(createErrorResponse(bindingResult));
-        }
+	public ResponseEntity<?> saveStudent(@RequestBody Student student){
+//		BindingResult bindingResult;
+		System.out.println("Student Controller");
+		System.out.println(student);
+//		if (bindingResult.hasErrors()) {
+//            // If validation errors exist, return bad request with error details
+//            return ResponseEntity.badRequest().body(createErrorResponse(bindingResult));
+//        }
 		
 		return new ResponseEntity<Student>(
 				studentService.saveStudent(student), 
